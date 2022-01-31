@@ -1,5 +1,5 @@
 import sqlalchemy
-engine = sqlalchemy.create_engine('postgresql://postgres:09111957@localhost:5432/netology_db')
+engine = sqlalchemy.create_engine('postgresql://postgres:@localhost:5432/netology_db')
 connection = engine.connect()
 
 artists = ["Amy Winehouse", "Lady Gaga", "Beyoncé", "Taylor Swift",
